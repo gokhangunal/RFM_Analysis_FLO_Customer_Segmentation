@@ -34,31 +34,44 @@ and groups will be formed based on the clustering of these behaviors.
 -----------------------------------------------------------------------
 
 **1.** Read the data and create a copy of the dataframe.
+
 **2.** Examine the first 10 observations, variable names, descriptive statistics, missing values, and variable types in the dataset.
+
 **3.** Create new variables for the total number of purchases and spending for each customer, 
 indicating omnichannel customers who have made purchases from both online and offline platforms.
+
 **4.** Examine variable types. Convert date variables to date format.
+
 **5.** Examine the distribution of the number of customers, total number of products purchased, and total spending across different shopping channels.
+
 **6.** Rank the top 10 customers with the highest revenue.
+
 **7.** Rank the top 10 customers with the highest number of orders.
+
 **8.** Functionize the data preprocessing steps.
 
 -----------------------------------------------------------------------
 
 **1.** Define Recency, Frequency, and Monetary metrics.
+
 **2.** Calculate Recency, Frequency, and Monetary metrics for each customer.
+
 **3.** Assign the calculated metrics to a variable named "rfm".
+
 **4.** Rename the metrics as recency, frequency, and monetary.
 
 -----------------------------------------------------------------------
 
 **1.** Convert Recency, Frequency, and Monetary metrics into scores between 1-5 using qcut function.
+
 **2.** Save these scores as recency_score, frequency_score, and monetary_score.
+
 **3.** Combine recency_score and frequency_score into a single variable called RF_SCORE.
 
 -----------------------------------------------------------------------
 
 **1.** Define segments for the created RF scores.
+
 **2.** Convert the scores into segments using the seg_map.
 
 -----------------------------------------------------------------------
