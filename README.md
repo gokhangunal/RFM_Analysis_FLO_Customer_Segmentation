@@ -77,10 +77,13 @@ indicating omnichannel customers who have made purchases from both online and of
 -----------------------------------------------------------------------
 
 **1.** Examine the averages of recency, frequency, and monetary for each segment.
+
 **2.** Using RFM analysis, find the customers in the relevant profile for the following 2 cases and save their customer IDs as a csv file:
+
       **a.** FLO is adding a new women's shoe brand to its portfolio. The prices of this brand's products are above the general customer preferences. 
       Therefore, they want to communicate with the customers who are interested in this profile and make special efforts to promote the brand and sell its products. 
       The loyal customers (champions, loyal_customers) and those who shop in the women's category will be the targeted customers for communication. 
       Save the customer IDs of these customers to a csv file.
+      
       **b.** A discount of nearly 40% is planned for men's and children's products. The company wants to target customers who are interested in these categories, 
       but haven't made a purchase in a long time, as well as new customers. Save the customer IDs of these customers who are in the appropriate profile to a csv file.
